@@ -26,7 +26,12 @@ namespace KosmosZadanie.Data
             XElement Wszechswiat = XElement.Load(@"KosmosData.xml");
 
             XDocument doc = XDocument.Parse(Wszechswiat.ToString());
-            var list = doc.Elements("Wszechswiat").Elements("Galaktyki").Select(x => x.Element("Galaktyka")).Select(y => Galaktyka.Create((string)y.Element("Nazwa"), (string)y.Element("Typ"), y.Elements("Gwiazdy").Select(u=> u.Element("Gwiazda")).Select(z => Gwiazda.Create((string)z.Element("Nazwa"),(int)z.Element("Wiek"))).ToList())).ToList();
+            var list = doc.Element("Wszechswiat").Element("Galaktyki").Elements("Galaktyka").Select(
+                i => Galaktyka.Create((string)i.Element("Nazwa"), (string)i.Element("Typ"), i.Elements("Gwiazdy").Elements("Gwiazda")
+                .Select(j => Gwiazda.Create((string)j.Element("Nazwa"), (int)j.Element("Wiek"))).ToList() )).ToList();
+                
+            
+
             return new Wszechswiat(list);
 
         }
