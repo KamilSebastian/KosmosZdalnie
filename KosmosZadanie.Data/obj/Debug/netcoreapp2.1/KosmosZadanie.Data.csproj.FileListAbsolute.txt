@@ -1,0 +1,9 @@
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\bin\Debug\netcoreapp2.1\KosmosZadanie.Data.deps.json
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\bin\Debug\netcoreapp2.1\KosmosZadanie.Data.dll
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\bin\Debug\netcoreapp2.1\KosmosZadanie.Data.pdb
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\obj\Debug\netcoreapp2.1\KosmosZadanie.Data.csprojAssemblyReference.cache
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\obj\Debug\netcoreapp2.1\KosmosZadanie.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\obj\Debug\netcoreapp2.1\KosmosZadanie.Data.AssemblyInfoInputs.cache
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\obj\Debug\netcoreapp2.1\KosmosZadanie.Data.AssemblyInfo.cs
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\obj\Debug\netcoreapp2.1\KosmosZadanie.Data.dll
+C:\Users\Kamil\source\repos\KosmosZadanie\KosmosZadanie.Data\obj\Debug\netcoreapp2.1\KosmosZadanie.Data.pdb

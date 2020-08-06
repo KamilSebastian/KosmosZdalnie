@@ -1,0 +1,52 @@
+﻿@model KosmosZadanie.Data.Wszechswiat
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1> Galaktyki </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+                <th>Typ</th>
+                <th>liczba gwiazd</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var galaxy in Model.Galaktyki)
+            {
+                <tr>
+                    <td>@galaxy.Nazwa</td>
+                    <td> @galaxy.Typ </td>
+                    <td> @galaxy.Gwiazdy.Count()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h1> Gwiazdy </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+
+                <th>Wiek</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var galaxy in Model.Galaktyki)
+            {
+                @foreach (var star in galaxy.Gwiazdy.OrderByDescending(x => x.Wiek).ToList())
+                {
+                    <tr>
+                        <td>@star.Nazwa</td>
+                        <td> @star.Wiek </td>
+                      
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wszechswiat>
+  <Galaktyki>
+    <Galaktyka>
+      <Nazwa>Droga Mleczna</Nazwa>
+      <Typ>Spiralna</Typ>
+      <Gwiazdy>
+        <Gwiazda>
+          <Wiek>4600000</Wiek>
+          <Nazwa>Słońce</Nazwa>
+        </Gwiazda>
+      </Gwiazdy>
+    </Galaktyka>
+  </Galaktyki>
+</Wszechswiat>
